@@ -53,7 +53,7 @@ DIRECTORY STRUCTURE
     mail/               contains view files for e-mails
     models/             contains model classes
     runtime/            contains files generated during runtime
-    tests/              contains various tests for the basic application
+    tests/              contains various tests for the yii2-practical-b application
     vendor/             contains dependent 3rd-party packages
     views/              contains view files for the Web application
 ```
@@ -70,7 +70,7 @@ INSTALLATION
 ### Install from an Archive File
 
 Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
-a directory named `basic` that is directly under the Web root.
+a directory named `practical-b` that is directly under the Web root.
 
 You can then access the application through the following URL:
 
