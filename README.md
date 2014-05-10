@@ -73,7 +73,7 @@ Extract the archive file downloaded from [yiiframework.com](http://www.yiiframew
 a directory named `practical-b` that is directly under the Web root.
 
 > Note: When using a archive file method, the vendor folder is not automatically created. You must 
- extract the [yii2-basic vendor folder from here](https://github.com/yiisoft/yii2/tree/master/apps/basic/vendor).
+ extract the [yii2-basic vendor folder from here](https://github.com/yiisoft/yii2/releases/download/2.0.0-beta/yii-basic-app-2.0.0-beta.tgz).
  Then you must copy this folder directly under the app root (i.e. `practical-b` directory).
  
 You can then access the application through the following URL:
