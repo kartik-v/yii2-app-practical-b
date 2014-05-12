@@ -45,8 +45,8 @@ DIRECTORY STRUCTURE
 
 ```
     /                   contains the entry script and web resources
-    assets/             contains runtime web assets
-    assets_b/           contains assets definition
+    assets/             contains the web runtime assets
+    assets_b/           contains application assets such as JavaScript and CSS
     commands/           contains console commands (controllers)
     config/             contains application configurations
     controllers/        contains Web controller classes
