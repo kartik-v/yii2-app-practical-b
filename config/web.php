@@ -32,6 +32,10 @@ $config = [
                 ],
             ],
         ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+        ],
         'db' => $db,
     ],
     'params' => $params,
