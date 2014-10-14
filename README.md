@@ -98,6 +98,7 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 You can then install this application template using the following command:
 
 ~~~
+php composer.phar global require "fxp/composer-asset-plugin:1.0.0-beta3"
 php composer.phar create-project --prefer-dist --stability=dev kartik-v/yii2-app-practical-b practical-b
 ~~~
 
