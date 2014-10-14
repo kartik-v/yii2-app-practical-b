@@ -16,7 +16,7 @@
 		"issues": "https://github.com/kartik-v/yii2-app-practical-b/issues?state=open",
 		"source": "https://github.com/kartik-v/yii2-app-practical-b/"
 	},
-	"minimum-stability": "dev",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
@@ -49,6 +49,10 @@
             "generateCookieValidationKey": [
                 "config/web.php"
             ]
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     }
 }
