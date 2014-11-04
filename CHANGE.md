@@ -1,3 +1,9 @@
+v1.4.0
+------
+**Date:** 2014-11-04
+
+- (enh # 4): Set write permissions for assets folder.
+
 v1.3.0
 ------
 **Date:** 2014-10-14
