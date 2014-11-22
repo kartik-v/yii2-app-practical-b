@@ -1,3 +1,11 @@
+v1.5.0
+------
+**Date:** 2014-11-22
+
+- (bug # 5): Correct loading of site.css and app assets.
+- Based on latest yii2-basic-app until 22-Nov-2014.
+- Set release to stable.
+
 v1.4.0
 ------
 **Date:** 2014-11-04
