@@ -1,6 +1,12 @@
 Yii 2 Practical-B Application Template
 ======================================
 
+[![Latest Stable Version](https://poser.pugx.org/kartik-v/yii2-app-practical-b/v/stable.svg)](https://packagist.org/packages/kartik-v/yii2-app-practical-b) 
+[![License](https://poser.pugx.org/kartik-v/yii2-app-practical-b/license.svg)](https://packagist.org/packages/kartik-v/yii2-app-practical-b)
+[![Total Downloads](https://poser.pugx.org/kartik-v/yii2-app-practical-b/downloads.svg)](https://packagist.org/packages/kartik-v/yii2-app-practical-b) 
+[![Monthly Downloads](https://poser.pugx.org/kartik-v/yii2-app-practical-b/d/monthly.png)](https://packagist.org/packages/kartik-v/yii2-app-practical-b)
+[![Daily Downloads](https://poser.pugx.org/kartik-v/yii2-app-practical-b/d/daily.png)](https://packagist.org/packages/kartik-v/yii2-app-practical-b)
+
 The Yii 2 Practical-B Application Template is a skeleton Yii 2 application based on the 
 [yii2-basic template](https://github.com/yiisoft/yii2-app-basic/) best for
 rapidly creating small projects. The template allows a **practical** method to directly 
