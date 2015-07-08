@@ -57,8 +57,8 @@ class ContactForm extends Model
                 ->send();
 
             return true;
-        } else {
-            return false;
         }
+
+        return false;
     }
 }
