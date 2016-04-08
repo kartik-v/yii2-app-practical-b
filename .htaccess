@@ -1,8 +1,8 @@
 # ----------------------------------------------------------------------
 # Adds some security for the Apache server configuration for use with
-# yii2-app-practical-b template.
+# https://github.com/kartik-v/yii2-app-practical-b template.
 # @author Kartik Visweswaran <kartikv2@gmail.com>
-# @see http://demos.krajee.com/app-practical
+# @see http://demos.krajee.com/app-practical-b
 # ----------------------------------------------------------------------
 
 # "-Indexes" will have Apache block users from browsing folders without a default document
@@ -23,7 +23,7 @@
 
 
 # Block access to backup and source files
-# This files may be left by some text/html editors and
+# These files may be left by some text/html editors and
 # pose a great security danger, when someone can access them
 <FilesMatch "(\.(bak|bat|config|sql|fla|md|psd|ini|log|sh|inc|swp|dist)|~|init|composer\.json|composer\.lock)$">
   Order allow,deny

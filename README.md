@@ -89,6 +89,15 @@ a directory named `practical-b` that is directly under the Web root.
  extract the [yii2-basic vendor folder from here](https://github.com/yiisoft/yii2/releases/download/2.0.0/yii-basic-app-2.0.0.tgz).
  Then you must copy this folder directly under the app root (i.e. `practical-b` directory).
  
+Set cookie validation key in `config/web.php` file to some random secret string:
+
+```php
+'request' => [
+    // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+    'cookieValidationKey' => '<secret random string goes here>',
+],
+```
+
 You can then access the application through the following URL:
 
 ~~~
@@ -133,6 +142,7 @@ return [
 ];
 ```
 
-**NOTE:** Yii won't create the database for you, this has to be done manually before you can access it.
-
-Also check and edit the other files in the `config/` directory to customize your application.
+**NOTES:**
+- Yii won't create the database for you, this has to be done manually before you can access it.
+- Check and edit the other files in the `config/` directory to customize your application as required.
+- Refer to the README in the `tests` directory for information specific to basic application tests.

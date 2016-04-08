@@ -3,9 +3,10 @@ Change Log: `yii2-app-practical-b`
 
 ## Version 1.6.2
 
-**Date:** 2015-08-17
+**Date:** 2016-04-08
 
 - Updates to `composer.json` and `.gitignore`.
+- Update to latest yii2-basic-app as of 08-Apr-2016.
 
 ## Version 1.6.1
 

@@ -24,7 +24,7 @@ After creating the basic application, follow these steps to prepare for the test
 2. Install faker extension by running the following from template root directory where `composer.json` is:
 
    ```
-   composer require --dev yiisoft/yii2-faker:*
+   composer require --dev "yiisoft/yii2-faker:*"
    ```
 
 3. Create `yii2_basic_tests` database and update it by applying migrations (you may skip this step if you do not have created any migrations yet):
@@ -32,6 +32,9 @@ After creating the basic application, follow these steps to prepare for the test
    ```
    codeception/bin/yii migrate
    ```
+
+   The command needs to be run in the `tests` directory.
+   The database configuration can be found at `tests/codeception/config/config.php`.
 
 4. Build the test suites:
 
@@ -58,6 +61,17 @@ webserver. In the `web` directory execute the following:
    # run unit tests
    codecept run unit
    ```
+
+Fixtures Default Configuration
+------------------------------
+The `fixture` commands refer to the following `ActiveFixture` configuration by default:
+
+- Fixtures path: `@tests/unit/fixtures`
+- Fixtures data path: `@tests/unit/fixtures/data`
+- Template files path: `@tests/unit/templates/fixtures`
+- Namespace: `tests\unit\fixtures`
+
+Where `@tests` refers to `@app/tests/codeception`.
 
 Code coverage support
 ---------------------
@@ -89,6 +103,8 @@ from codeception site.
 2. copy `c3.php` file under your `web` directory;
 
 3. include `c3.php` file in your `index-test.php` file before application run, so it can catch needed requests.
+
+4. edit `c3.php` to update config file path (~ line 55) with `$config_file = realpath(__DIR__ . '/../tests/codeception.yml');`
 
 Configuration options that are used by remote code coverage:
 
