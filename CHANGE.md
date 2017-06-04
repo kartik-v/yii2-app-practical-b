@@ -1,6 +1,12 @@
 Change Log: `yii2-app-practical-b`
 ==================================
 
+## Version 1.6.3
+
+**Date:** 2017-06-04
+
+- Update to latest yii2-basic-app as of 04-Jun-2017.
+
 ## Version 1.6.2
 
 **Date:** 2016-04-08
@@ -12,8 +18,8 @@ Change Log: `yii2-app-practical-b`
 
 **Date:** 2015-07-09
 
-- (enh #7): Improve security for .htaccess.
 - (enh #8): Update to latest yii2-basic-app as of 09-Jul-2015.
+- (enh #7): Improve security for .htaccess.
 
 ## Version 1.6.0
 
@@ -57,10 +63,8 @@ Change Log: `yii2-app-practical-b`
 
 - Update to latest yii2-basic-app as of 30-Jun-2014.
 
-
 ## Version 1.0.0
 
 **Date:** 2014-06-01
 
 - Update to latest yii2-basic-app as of 31-May-2014.
-

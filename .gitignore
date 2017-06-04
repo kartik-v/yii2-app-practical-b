@@ -1,7 +1,3 @@
-# index files
-/index.php
-/index-test.php
-
 # phpstorm project files
 .idea
 
@@ -29,3 +25,6 @@ composer.phar
 phpunit.phar
 # local phpunit config
 /phpunit.xml
+
+tests/_output/*
+tests/_support/_generated
